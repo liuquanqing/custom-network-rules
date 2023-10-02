@@ -4,4 +4,7 @@ PROCESS-NAME,WeChat
 ;PROCESS-NAME,QQ Helper
 PROCESS-NAME,世界名画集
 DOMAIN-SUFFIX,vk.com
+#增加这两个规则，解决Apple iMessage和共享屏幕相关的问题 参考https://github.com/yichengchen/clashX/discussions/1061
+DOMAIN-KEYWORD,courier.push.apple.com,DIRECT
+DOMAIN-KEYWORD,apac-china-courier,DIRECT
 
