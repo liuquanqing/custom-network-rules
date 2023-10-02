@@ -7,4 +7,7 @@ DOMAIN-SUFFIX,vk.com
 #增加这两个规则，解决Apple iMessage和共享屏幕相关的问题 参考https://github.com/yichengchen/clashX/discussions/1061
 DOMAIN-KEYWORD,courier.push.apple.com,DIRECT
 DOMAIN-KEYWORD,apac-china-courier,DIRECT
-
+#增加以下规则 解决mmersivetranslate翻译的连接问题
+DOMAIN-KEYWORD,immersivetranslate.com
+#增加以下规则 改善macOS Siri建议
+DOMAIN-KEYWORD,smoot.apple.com
