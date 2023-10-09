@@ -11,3 +11,7 @@ DOMAIN-KEYWORD,apac-china-courier,DIRECT
 DOMAIN-KEYWORD,immersivetranslate.com
 #增加以下规则 改善macOS Siri建议
 DOMAIN-KEYWORD,smoot.apple.com
+#增加以下规则 解决潜在的digcert误伤问题
+DOMAIN-SUFFIX,digicert.com
+
+DOMAIN-SUFFIX,gsa.apple.com
