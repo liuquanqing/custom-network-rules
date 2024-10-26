@@ -2,8 +2,7 @@
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,ai.com
 DOMAIN-KEYWORD,openai
-DOMAIN,chat.openai.com
-DOMAIN,cdn.cloudflare.net
+DOMAIN,chat.openai.com.cdn.cloudflare.net
 DOMAIN-SUFFIX,openaicom.imgix.net
 DOMAIN-SUFFIX,observeit.net
 DOMAIN-SUFFIX,oaistatic.com
