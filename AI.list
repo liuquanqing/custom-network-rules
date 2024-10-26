@@ -13,6 +13,17 @@ DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,fbcdn.net 
 DOMAIN-SUFFIX,meta.com
 DOMAIN-SUFFIX,ai.meta.com
+DOMAIN,imagine.meta.com
+DOMAIN-SUFFIX,api.meta.com
+DOMAIN-SUFFIX,llama.meta.com
+DOMAIN-SUFFIX,research.facebook.com
+DOMAIN-SUFFIX,pytorch.org
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,dl.fbaipublicfiles.com
+DOMAIN-SUFFIX,fairseq.ai
+DOMAIN-SUFFIX,fasttext.cc
+
+
 
 # 人工智能 API & Infrastructure
 DOMAIN-SUFFIX,auth0.com
