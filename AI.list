@@ -6,6 +6,7 @@ DOMAIN-SUFFIX,openaicom.imgix.net
 DOMAIN-SUFFIX,observeit.net
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN,chat.openai.com.cdn.cloudflare.net
 
 # 人工智能 API & Infrastructure
 DOMAIN-SUFFIX,auth0.com
@@ -61,10 +62,12 @@ DOMAIN-SUFFIX,host.livekit.cloud
 DOMAIN-SUFFIX,turn.livekit.cloud
 
 # IP Rules
-IP-CIDR,24.199.123.28/32
-IP-CIDR,64.23.132.171/32
+IP-CIDR,24.199.123.28/32,no-resolve
+IP-CIDR,64.23.132.171/32,no-resolve
 
 # Analytics & Monitoring
 DOMAIN,static.cloudflareinsights.com
 DOMAIN-SUFFIX,events.statsigapi.net
 DOMAIN-SUFFIX,api.statsig.com
+DOMAIN,browser-intake-datadoghq.com
+
