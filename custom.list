@@ -1,4 +1,12 @@
 #手动添加的一些需要代理的链接
 DOMAIN-SUFFIX,bixiny.com
-DOMAIN-SUFFIX,sub.xeton.dev
 DOMAIN-SUFFIX,1lib.ph
+DOMAIN-KEYWORD,perplexity
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,pplx.ai
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,segment.io
+DOMAIN-SUFFIX,launchdarkly.com
