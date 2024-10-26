@@ -5,6 +5,8 @@ DOMAIN-KEYWORD,openai
 DOMAIN,chat.openai.com.cdn.cloudflare.net
 DOMAIN-SUFFIX,openaicom.imgix.net
 DOMAIN-SUFFIX,observeit.net
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
 
 # 人工智能 API & Infrastructure
 DOMAIN-SUFFIX,auth0.com
