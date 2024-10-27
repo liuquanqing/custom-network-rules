@@ -72,6 +72,7 @@ DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,segment.io
 DOMAIN-SUFFIX,launchdarkly.com
+DOMAIN-SUFFIX,crisp.chat
 
 # LiveKit Services
 DOMAIN-SUFFIX,chatgpt.livekit.cloud
