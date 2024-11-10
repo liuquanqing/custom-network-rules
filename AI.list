@@ -7,6 +7,19 @@ DOMAIN-SUFFIX,observeit.net
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN,o33249.ingest.sentry.io
+DOMAIN-SUFFIX,cdn.oaistatic.com
+
+# Copilot Services
+DOMAIN,api.githubcopilot.com
+DOMAIN-SUFFIX,copilot.microsoft.com
+
+# Apple AI Services
+DOMAIN,apple-relay.apple.com
+DOMAIN,apple-relay.cloudflare.com
+DOMAIN,guzzoni.smoot.apple.co
+
 
 # meta
 DOMAIN-SUFFIX,meta.ai
