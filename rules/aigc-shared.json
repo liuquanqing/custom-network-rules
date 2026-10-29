@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "sections": [
+    {
+      "name": "grok_login",
+      "policy": "grok",
+      "type": "DOMAIN",
+      "domains": [
+        "accounts.x.ai",
+        "auth.x.ai",
+        "accounts.spacex.ai",
+        "auth.grok.com",
+        "auth.grokusercontent.com",
+        "auth.grokipedia.com",
+        "authenticator.cursor.sh",
+        "authenticate.cursor.sh",
+        "prod.authentication.cursor.sh"
+      ]
+    },
+    {
+      "name": "grok",
+      "policy": "grok",
+      "type": "DOMAIN-SUFFIX",
+      "domains": [
+        "grok.com",
+        "grokusercontent.com",
+        "x.ai"
+      ]
+    },
+    {
+      "name": "aigc_supplement",
+      "policy": "aigc",
+      "type": "DOMAIN-SUFFIX",
+      "domains": [
+        "githubcopilot.com",
+        "together.ai",
+        "oaistatsig.com"
+      ]
+    },
+    {
+      "name": "claude",
+      "policy": "aigc",
+      "type": "DOMAIN-SUFFIX",
+      "domains": [
+        "anthropic.com",
+        "claude.ai",
+        "claude.com",
+        "claude.app",
+        "claudeusercontent.com",
+        "claudemcpcontent.com"
+      ]
+    },
+    {
+      "name": "cursor",
+      "policy": "aigc",
+      "type": "DOMAIN-SUFFIX",
+      "domains": [
+        "cursor.com",
+        "cursor.sh",
+        "cursorapi.com",
+        "cursor-cdn.com",
+        "cursorvm.com"
+      ]
+    }
+  ],
+  "sources": [
+    "https://code.claude.com/docs/en/desktop#network-access-requirements",
+    "https://docs.github.com/en/copilot/reference/copilot-allowlist-reference",
+    "https://docs.together.ai/docs/inference/openai-compatibility",
+    "https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps",
+    "https://prod.cursor.com/docs/enterprise/network-configuration"
+  ]
+}

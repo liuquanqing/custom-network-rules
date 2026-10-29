@@ -1,0 +1,40 @@
+name: Shared AIGC rules
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - run: python3 tools/render_rules.py --check
+      - run: python3 -m unittest discover -s tests -v
+
+  export:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - run: python3 tools/render_rules.py
+      - run: python3 -m unittest discover -s tests -v
+      - name: Publish generated AI.list when changed
+        shell: bash
+        run: |
+          if git diff --quiet -- AI.list; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- AI.list
+          git commit -m 'Regenerate AI.list from shared rules'
+          git push origin HEAD:main
