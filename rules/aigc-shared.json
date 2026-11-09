@@ -51,6 +51,14 @@
       ]
     },
     {
+      "name": "claude_links",
+      "policy": "aigc",
+      "type": "DOMAIN",
+      "domains": [
+        "clau.de"
+      ]
+    },
+    {
       "name": "cursor",
       "policy": "aigc",
       "type": "DOMAIN-SUFFIX",
@@ -67,6 +75,7 @@
     "https://code.claude.com/docs/en/desktop#network-access-requirements",
     "https://docs.github.com/en/copilot/reference/copilot-allowlist-reference",
     "https://docs.together.ai/docs/inference/openai-compatibility",
+    "https://github.com/anthropics/claude-plugins-official",
     "https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps",
     "https://prod.cursor.com/docs/enterprise/network-configuration"
   ]
